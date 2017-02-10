@@ -1,0 +1,103 @@
+body,button,input,select,textarea {
+	margin: 0;
+	font-family: Arial, "Microsoft Yahei" !important;
+	line-height: 18px;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+.tip {
+	margin-top: 6px;
+	color: red;
+}
+
+.iframemain {
+	position: relative;
+	padding: 20px;
+	margin-right: 20px;
+}
+
+.table {
+	clear: both;
+	margin-bottom: 6px !important;
+	max-width: none !important;
+}
+
+table {
+	font-size: 15px;
+	table-layout: fixed;
+}
+
+table td {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+	vertical-align: center;
+}
+
+table th {
+	text-align: center;
+	vertical-align: center;
+}
+
+<!--
+ËÑË÷-->.search {
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+.data {
+	
+}
+
+<!--
+Î²²¿-->.foot {
+	height: 50px;
+	margin-top: 20px;
+}
+
+.my-alert {
+	position: fixed;
+	opacity: 0;
+	z-index: 10000;
+	width: 300px;
+}
+
+.form-group .btn-input {
+	letter-spacing: 0px !important;
+	padding-left: 12px;
+}
+
+input.upload {
+	cursor: pointer;
+	position: absolute;
+	overflow: hidden;
+	opacity: 0;
+	filter: alpha(opacity =   0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	height: 34px;
+	width: 100px;
+	outline: 0 none;
+	z-index: 1000;
+	top: 0;
+	left: 15px;
+	border: none;
+}
+
+#product_add_form input.upload {
+	left: 53px;
+	top: 0;
+}
+
+.form-control-feedback {
+	display: block;
+	left: 0;
+	text-align: left;
+	width: 320px;
+}
+
+.my-modal {
+	padding-top: 130px;
+}
